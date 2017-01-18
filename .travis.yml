@@ -1,14 +1,11 @@
 language: objective-c
 osx_image: xcode8.2
-rvm: 2.3.3
+# rvm: 2.3.3
 cache:
   - bundler
   - cocoapods
 before_install:
-  - brew update
-  - brew outdated swiftlint || brew upgrade swiftlint
-  - bundle install
-  - bundle exec pod install
+  make ci-install
 before_script:
   - make lint
 script:
