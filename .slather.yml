@@ -1,0 +1,8 @@
+coverage_service: cobertura_xml
+workspace: AsyncDisplayKitSnapshots.xcworkspace
+xcodeproj: AsyncDisplayKitSnapshots.xcodeproj
+scheme: AsyncDisplayKitSnapshots
+source_directory: AsyncDisplayKitSnapshots
+output_directory: fastlane/test_output
+ignore:
+  - Pods/*
