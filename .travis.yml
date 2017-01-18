@@ -1,11 +1,12 @@
 language: objective-c
 osx_image: xcode8.2
-# rvm: 2.3.3
 cache:
   - bundler
   - cocoapods
 before_install:
-  make ci-install
+  - ./install_swiftlint.sh
+  - bundle install
+  - bundle exec pod install --repo-update
 before_script:
   - make lint
 script:
