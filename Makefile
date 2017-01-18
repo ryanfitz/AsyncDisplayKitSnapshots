@@ -20,12 +20,3 @@ test-cov-html: test
 
 lint:
 	swiftlint
-
-ci-install:
-	brew update
-ifndef SWIFTLINT
-	brew install swiftlint
-endif
-  brew outdated swiftlint || brew upgrade swiftlint
-  bundle install
-  bundle exec pod install --repo-update
