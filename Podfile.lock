@@ -1,0 +1,39 @@
+PODS:
+  - AsyncDisplayKit (2.0.1):
+    - AsyncDisplayKit/PINRemoteImage (= 2.0.1)
+  - AsyncDisplayKit/Core (2.0.1)
+  - AsyncDisplayKit/PINRemoteImage (2.0.1):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.7)
+    - PINRemoteImage/PINCache
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - PINCache (3.0.1-beta.2):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.2)
+    - PINCache/Core (= 3.0.1-beta.2)
+  - PINCache/Arc-exception-safe (3.0.1-beta.2):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.2)
+  - PINRemoteImage/Core (3.0.0-beta.7)
+  - PINRemoteImage/iOS (3.0.0-beta.7):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.7):
+    - PINCache (= 3.0.1-beta.2)
+    - PINRemoteImage/Core
+
+DEPENDENCIES:
+  - AsyncDisplayKit (~> 2.0)
+  - FBSnapshotTestCase (~> 2.1)
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: 6c5a21d9ab30f3f48e877a67d44e3e19c1724f91
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  PINCache: 6d273a6e0754bd26e3f12a38a90dde73cc6a42b2
+  PINRemoteImage: ff63baf185088530db6cfa41cb665e2b5126b5c3
+
+PODFILE CHECKSUM: 255895a6761b077fe2c8fd3a3b1fa5cf3ef0137a
+
+COCOAPODS: 1.1.1
