@@ -25,7 +25,7 @@ PODS:
     - PINRemoteImage/Core
 
 DEPENDENCIES:
-  - AsyncDisplayKit (~> 2.0)
+  - AsyncDisplayKit (~> 2.0.1)
   - FBSnapshotTestCase (~> 2.1)
 
 SPEC CHECKSUMS:
@@ -34,6 +34,6 @@ SPEC CHECKSUMS:
   PINCache: 6d273a6e0754bd26e3f12a38a90dde73cc6a42b2
   PINRemoteImage: ff63baf185088530db6cfa41cb665e2b5126b5c3
 
-PODFILE CHECKSUM: 255895a6761b077fe2c8fd3a3b1fa5cf3ef0137a
+PODFILE CHECKSUM: c97166849eb383bfab4b301c18ae516a00788504
 
 COCOAPODS: 1.1.1
