@@ -37,7 +37,8 @@ platform :ios do
       workspace: "AsyncDisplayKitSnapshots.xcworkspace",
       scheme: "AsyncDisplayKitSnapshots",
       device: "iPhone 7",
-      skip_slack: true
+      skip_slack: true,
+      skip_build: true
     )
   end
 
