@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		60416F92D6D71292E8DE4468 /* Pods_AsyncDisplayKitSnapshots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F3E6149E11A1711B64C901 /* Pods_AsyncDisplayKitSnapshots.framework */; };
 		6931F1742C6B81A5B3E5CCC4 /* Pods_AsyncDisplayKitSnapshotsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D598E2E3B60E2AACFFA7D19 /* Pods_AsyncDisplayKitSnapshotsTests.framework */; };
+		C4A8E9681E377F3700697DE3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8E9671E377F3700697DE3 /* ViewModel.swift */; };
+		C4A8E96A1E37818100697DE3 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8E9691E37818100697DE3 /* ViewModelTests.swift */; };
 		C4BB235F1E2F009B002DA44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BB235E1E2F009B002DA44A /* AppDelegate.swift */; };
 		C4BB23611E2F009B002DA44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BB23601E2F009B002DA44A /* ViewController.swift */; };
-		C4BB23641E2F009B002DA44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BB23621E2F009B002DA44A /* Main.storyboard */; };
 		C4BB23661E2F009B002DA44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BB23651E2F009B002DA44A /* Assets.xcassets */; };
 		C4BB23691E2F009B002DA44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BB23671E2F009B002DA44A /* LaunchScreen.storyboard */; };
-		C4BB23741E2F009B002DA44A /* AsyncDisplayKitSnapshotsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BB23731E2F009B002DA44A /* AsyncDisplayKitSnapshotsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +32,15 @@
 		1D598E2E3B60E2AACFFA7D19 /* Pods_AsyncDisplayKitSnapshotsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDisplayKitSnapshotsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B00238BD69E9FC9BF634DC /* Pods-AsyncDisplayKitSnapshotsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKitSnapshotsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKitSnapshotsTests/Pods-AsyncDisplayKitSnapshotsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		97060CF9EED3F4C165E4356C /* Pods-AsyncDisplayKitSnapshotsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKitSnapshotsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKitSnapshotsTests/Pods-AsyncDisplayKitSnapshotsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4A8E9671E377F3700697DE3 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C4A8E9691E37818100697DE3 /* ViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 		C4BB235B1E2F009B002DA44A /* AsyncDisplayKitSnapshots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncDisplayKitSnapshots.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BB235E1E2F009B002DA44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4BB23601E2F009B002DA44A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C4BB23631E2F009B002DA44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4BB23651E2F009B002DA44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4BB23681E2F009B002DA44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4BB236A1E2F009B002DA44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4BB236F1E2F009B002DA44A /* AsyncDisplayKitSnapshotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncDisplayKitSnapshotsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4BB23731E2F009B002DA44A /* AsyncDisplayKitSnapshotsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDisplayKitSnapshotsTests.swift; sourceTree = "<group>"; };
 		C4BB23751E2F009B002DA44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C714AF8CC1F329C400F459C3 /* Pods-AsyncDisplayKitSnapshots.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKitSnapshots.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKitSnapshots/Pods-AsyncDisplayKitSnapshots.debug.xcconfig"; sourceTree = "<group>"; };
 		F56A047ED7C5B16DA1A37725 /* Pods-AsyncDisplayKitSnapshots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKitSnapshots.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsyncDisplayKitSnapshots/Pods-AsyncDisplayKitSnapshots.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 			children = (
 				C4BB235E1E2F009B002DA44A /* AppDelegate.swift */,
 				C4BB23601E2F009B002DA44A /* ViewController.swift */,
-				C4BB23621E2F009B002DA44A /* Main.storyboard */,
+				C4A8E9671E377F3700697DE3 /* ViewModel.swift */,
 				C4BB23651E2F009B002DA44A /* Assets.xcassets */,
 				C4BB23671E2F009B002DA44A /* LaunchScreen.storyboard */,
 				C4BB236A1E2F009B002DA44A /* Info.plist */,
@@ -113,7 +113,7 @@
 		C4BB23721E2F009B002DA44A /* AsyncDisplayKitSnapshotsTests */ = {
 			isa = PBXGroup;
 			children = (
-				C4BB23731E2F009B002DA44A /* AsyncDisplayKitSnapshotsTests.swift */,
+				C4A8E9691E37818100697DE3 /* ViewModelTests.swift */,
 				C4BB23751E2F009B002DA44A /* Info.plist */,
 			);
 			path = AsyncDisplayKitSnapshotsTests;
@@ -219,7 +219,6 @@
 			files = (
 				C4BB23691E2F009B002DA44A /* LaunchScreen.storyboard in Resources */,
 				C4BB23661E2F009B002DA44A /* Assets.xcassets in Resources */,
-				C4BB23641E2F009B002DA44A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4BB23611E2F009B002DA44A /* ViewController.swift in Sources */,
+				C4A8E9681E377F3700697DE3 /* ViewModel.swift in Sources */,
 				C4BB235F1E2F009B002DA44A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4BB23741E2F009B002DA44A /* AsyncDisplayKitSnapshotsTests.swift in Sources */,
+				C4A8E96A1E37818100697DE3 /* ViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,14 +354,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C4BB23621E2F009B002DA44A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4BB23631E2F009B002DA44A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C4BB23671E2F009B002DA44A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -541,6 +533,7 @@
 				C4BB237A1E2F009B002DA44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4BB237B1E2F009B002DA44A /* Build configuration list for PBXNativeTarget "AsyncDisplayKitSnapshotsTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +542,7 @@
 				C4BB237D1E2F009B002DA44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

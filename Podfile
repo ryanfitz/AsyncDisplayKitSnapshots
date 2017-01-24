@@ -10,6 +10,8 @@ target 'AsyncDisplayKitSnapshots' do
   target 'AsyncDisplayKitSnapshotsTests' do
     inherit! :search_paths
     pod 'FBSnapshotTestCase', '~> 2.1'
+    pod 'Quick', '~> 1.0'
+    pod 'Nimble', '~> 6.0'
   end
 
 end
