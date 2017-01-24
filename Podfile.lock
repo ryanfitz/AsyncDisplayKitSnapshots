@@ -11,6 +11,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - Nimble (6.0.0)
   - PINCache (3.0.1-beta.2):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.2)
     - PINCache/Core (= 3.0.1-beta.2)
@@ -23,17 +24,22 @@ PODS:
   - PINRemoteImage/PINCache (3.0.0-beta.7):
     - PINCache (= 3.0.1-beta.2)
     - PINRemoteImage/Core
+  - Quick (1.0.0)
 
 DEPENDENCIES:
   - AsyncDisplayKit (~> 2.0.1)
   - FBSnapshotTestCase (~> 2.1)
+  - Nimble (~> 6.0)
+  - Quick (~> 1.0)
 
 SPEC CHECKSUMS:
   AsyncDisplayKit: 6c5a21d9ab30f3f48e877a67d44e3e19c1724f91
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Nimble: 8fb9b4b34c535b2f32f52c6b9852d6f02d48610b
   PINCache: 6d273a6e0754bd26e3f12a38a90dde73cc6a42b2
   PINRemoteImage: ff63baf185088530db6cfa41cb665e2b5126b5c3
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 
-PODFILE CHECKSUM: c97166849eb383bfab4b301c18ae516a00788504
+PODFILE CHECKSUM: 7034e2b875eae450b63dbf85667fb104c3f9fed4
 
 COCOAPODS: 1.1.1
