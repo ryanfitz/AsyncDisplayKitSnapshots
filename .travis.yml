@@ -11,6 +11,7 @@ before_script:
   - make lint
 script:
   - make test
+  - bundle exec danger
 after_success:
   - slather
   - bash <(curl -s https://codecov.io/bash) -f fastlane/test_output/cobertura.xml
