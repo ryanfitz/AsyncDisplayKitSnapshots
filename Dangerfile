@@ -8,8 +8,10 @@ warn("PR is classed as Work in Progress") if github.pr_title.include? "[WIP]"
 # Warn when there is a big PR
 warn("Big PR") if git.lines_of_code > 500
 
+warn("Needs testing on a Phone if change is non-trivial") if git.lines_of_code > 50 && !github.pr_title.include?("📱")
+
 # Don't let testing shortcuts get into master by accident
-fail("fdescribe left in tests") if `grep -r fdescribe specs/ `.length > 1
-fail("fit left in tests") if `grep -r fit specs/ `.length > 1
+fail("fdescribe left in tests") if `grep -rI "fdescribe(" AsyncDisplayKitSnapshotsTests/`.length > 1
+fail("fit left in tests") if `grep -rI "fit(" AsyncDisplayKitSnapshotsTests/`.length > 1
 
 swiftlint.lint_files
