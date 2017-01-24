@@ -16,7 +16,7 @@ class ViewModelSpec: QuickSpec {
 
     var subject: ViewModel!
 
-    describe("username") {
+    fdescribe("username") {
       it("is not valid when not set") {
         subject = ViewModel()
         expect(subject.isUsernameValid).to(beFalse())
