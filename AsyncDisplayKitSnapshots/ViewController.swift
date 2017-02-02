@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  let foo :Int = 0
+  
   override func viewDidLoad() {
     super.viewDidLoad()
+    var t = "foo"
   }
 
 }
